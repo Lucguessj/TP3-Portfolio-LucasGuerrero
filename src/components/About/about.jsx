@@ -19,9 +19,9 @@ const About = () => {
   }
   
   return (
-    <div className={`about-container ${isDarkMode ? "dark-mode" : ""}`}>
+    <div className="about-container">
         
-      <div className="about-card">
+      <div className={`about-card ${isDarkMode ? "dark-mode" : ""}`}>
         <img
           src={Mifoto}
           alt={`${datos.nombre} ${datos.apellido}`}

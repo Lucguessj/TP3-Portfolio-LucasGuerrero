@@ -50,7 +50,7 @@ button:hover {
   background-color: #ffd600;
 }
 
-.dark-mode .contact-card {
+.dark-mode {
   background-color: #222;
   color: #fff;
 }

@@ -10,9 +10,9 @@ const Projects = () => {
  
 
   return (
-    <div className={`projects-container ${isDarkMode ? "dark-mode" : ""}`}>
+    <div className="projects-container">
       <Header />
-      <div className="project-card">
+      <div className={`project-card ${isDarkMode ? "dark-mode" : ""}`}>
         <h2>Mis Proyectos</h2>
         <p>Este es mi primer portfolio realizado en React.</p>
         <img

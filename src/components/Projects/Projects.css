@@ -49,12 +49,16 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
-.dark-mode .project-card {
+.dark-mode {
   background: #222;
   color: #fff;
 }
 
-.dark-mode .project-card p {
+.dark-mode p {
+  color: #ccc;
+}
+
+.dark-mode h2 {
   color: #ccc;
 }
 

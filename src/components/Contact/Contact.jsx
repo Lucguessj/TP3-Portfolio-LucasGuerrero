@@ -27,8 +27,8 @@ const Contact = () => {
   return (
     <div>
       <Header />
-      <div className={`contact-container ${isDarkMode ? "dark-mode" : ""}`}>
-        <div className="contact-card">
+      <div className="contact-container">
+        <div className={`contact-card ${isDarkMode ? "dark-mode" : ""}`}>
           <h2>Contacto</h2>
           <form ref={form} onSubmit={handleSubmit}>
             <input type="text" name="from_name" placeholder="Tu Nombre" required />
