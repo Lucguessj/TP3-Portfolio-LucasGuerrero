@@ -1,0 +1,159 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 20px;
+  margin: 80px auto;
+  max-width: 80%;
+}
+
+.about-card {
+  background-color: #adc1f7;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.about-card {
+  background-color: rgba(255, 255, 255, 0.97);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+  color: #222;
+}
+
+.about-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.about-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-card h3 {
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+}
+
+.about-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-card li {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Soporte dark mode */
+.dark-mode .about-card {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .about-description,
+.dark-mode .about-card li {
+  color: #ccc;
+}
+
+  max-width: 800px;
+}
+
+.about-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about-description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-card h2 {
+  color: #1e3a8a;
+  font-family: "Bangers", system-ui;
+  margin-bottom: 15px;
+}
+
+.about-card h3 {
+  color: #1e3a8a;
+  font-family: "Bangers", system-ui;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.about-card li {
+  margin: 5px 0;
+  color: #333;
+}
+
+.dark-mode .about-container {
+  color: #eee;
+}
+
+.dark-mode .about-card {
+  background-color: #444;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .about-description {
+  color: #eee;
+}
+
+.dark-mode .about-card h2,
+.dark-mode .about-card h3 {
+  color: #fde047;
+  text-shadow: #333 4px 4px 4px;
+}
+
+.dark-mode .about-card li {
+  color: #eee;
+}
+
+#video-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+}

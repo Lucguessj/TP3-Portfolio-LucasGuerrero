@@ -1,0 +1,19 @@
+[
+  {
+    "nombre": "Lucas Andrés",
+    "apellido": "Guerrero López",
+    "edad": 20,
+    "nacionalidad": "Argentina",
+    "hobbies": [
+      "Mover Kilos que me podrian matar",
+      "Ingles",
+      "Entrenar personas y hacer rutinas",
+      "Comer Lomitos"
+    ],
+
+    "contacto": {
+      "Cel": "3816405182",
+      "Mail": "lucasguerrero206@gmail.com"
+    }
+  }
+]
